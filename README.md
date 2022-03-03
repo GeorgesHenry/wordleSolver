@@ -4,7 +4,7 @@ It asks for the word guessed and the response from the game, it returns word sug
 The numbers next to the words reflect how common the letters in this world are. <br />
 Words with non-repeated letters and vowels will have a higher score. <br />
 
-inputs: 
+inputs: <br />
 ? -> for grey/wrong letters<br />
 G -> for green letters<br />
 Y -> for yellow letters<br />
