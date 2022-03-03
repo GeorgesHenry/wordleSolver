@@ -6,7 +6,7 @@ G -> for green letters<br />
 Y -> for yellow letters<br />
 
 example: <br />
->What word did you guess    : steak<br />
+>What word did you guess     : steak<br />
 >Enter response after guess : GGY??<br />
 >store :  1.30<br />
 >stole :  1.29<br />
