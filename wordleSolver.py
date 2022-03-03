@@ -36,7 +36,6 @@ def get_prob(stats_dict):
     return prob_list
 
 def eliminate_words(letter, colour, location, prob_list):
-    #print("LETTER: ", letter, "STATUS: ", colour)
     elimination_words = [] #fill up with unqualifying words
     if (colour == 'G'):
         green_letters.append(letter)
@@ -89,18 +88,4 @@ if __name__ == "__main__":
     prob_list = get_prob(stats_dict)
     prob_list.sort(reverse=1)
     play(prob_list)
-    '''print(prob_list[:10])
-    print(len(prob_list))
-    prob_list = eliminate_words('g', 'G', 2, prob_list)
-    print(prob_list[:10])
-    print(len(prob_list))
-    prob_list = eliminate_words('a', '?', 2, prob_list)
-    print(prob_list[:10])
-    print(len(prob_list))
-    prob_list = eliminate_words('e', '?', 2, prob_list)
-    format_prob(prob_list)
-    print(len(prob_list))
-    prob_list = eliminate_words('y', 'Y', 4, prob_list)
-    format_prob(prob_list)
-    print(len(prob_list))'''
     
