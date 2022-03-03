@@ -1,9 +1,9 @@
 # wordleSolver
-This is a very basic solver for the Wordle Game
-It asks for the word guessed and the response from the game.
-? -> for grey/wrong letters
-G -> for green letters
-Y -> for yellow letters
+This is a very basic solver for the Wordle Game\n
+It asks for the word guessed and the response from the game.\n
+? -> for grey/wrong letters\n
+G -> for green letters\n
+Y -> for yellow letters\n
 
 example: 
 What word did you guess   : steak
