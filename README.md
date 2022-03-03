@@ -6,8 +6,8 @@ G -> for green letters
 Y -> for yellow letters
 
 example: 
->>> What word did you guess   : steak
->>> Enter response after guess: GGY??
+What word did you guess   : steak
+Enter response after guess: GGY??
 store :  1.30
 stole :  1.29
 stone :  1.28
