@@ -1,6 +1,10 @@
 # wordleSolver
 This is a very basic solver for the Wordle Game<br />
-It asks for the word guessed and the response from the game.<br />
+It asks for the word guessed and the response from the game, it returns word suggestions that satisfy the constraints.<br />
+The numbers next to the words reflect how common the letters in this world are. <br />
+Words with non-repeated letters and vowels will have a higher score. <br />
+
+inputs: 
 ? -> for grey/wrong letters<br />
 G -> for green letters<br />
 Y -> for yellow letters<br />
